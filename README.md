@@ -11,23 +11,23 @@ O sistema é projetado para processar e analisar um grandes volumes de dados, co
 
 - **Watson Assistant:** ajuda a construir chatbots e assistentes virtuais para uma variedade de canais, incluindo dispositivos móveis, plataformas de mensagens e até robôs.
   
-- **Watson Discovery:** desbloqueia o valor oculto nas informações para obter respostas, monitorar tendências e reparar padrões com o mecanismo de insight nativo da nuvem mais avançado do mundo.
+- **Watson Discovery:**  monitora tendências e repara padrões com o mecanismo de insight nativo da nuvem mais avançado do mundo.
 
-- **Watson IoT Platform:** ajuda a criar e manter uma infraestrutura de IoT realmente eficiente.
+- **Watson IoT Platform:** mantem uma infraestrutura de IoT realmente eficiente.
 
-- **Watson Speech to Text (STT):** ajuda a converter áudio / fala em texto.
+- **Watson Speech to Text (STT):** converte áudio / fala em texto.
 
-- **Watson Text to Speech (TTS):** ajuda a converter texto em áudio / fala.
+- **Watson Text to Speech (TTS):** converte texto em áudio / fala.
 
-- **Watson Language Translator:** ajuda a traduzir entre diferentes idiomas.
+- **Watson Language Translator:** traduz diferentes idiomas.
 
-- **Watson language Classifier:** ajuda a classificar as linguagens naturais que estão sendo usadas.
+- **Watson language Classifier:** classifica as linguagens naturais que estão sendo usadas nos diferentes arquivos.
 
-- **Watson Visual Recognition:** permite que você marque, classifique e treine conteúdo visual de forma rápida e precisa usando o aprendizado de máquina.
+- **Watson Visual Recognition:** marca, classifica e treina conteúdo visual de forma rápida e precisa usando o aprendizado de máquina.
 
-- **Watson Tone Analyzer:** ajuda a analisar o tom do som, se a pessoa está zangada, feliz ou se a música é agradável ou não.
+- **Watson Tone Analyzer:** analisa o tom do som, se a pessoa está zangada, feliz ou se a música é agradável ou não.
 
-- **Watson Personality Insights:** ajuda você a obter informações sobre os traços de personalidade.
+- **Watson Personality Insights:** obtém informações sobre os traços de personalidade.
 
 - **Data Refinery:** fornece a você como mostrar ao Watson a linguagem de seu domínio, com modelos customizados que identificam entidades e relacionamentos exclusivos para seu segmento de mercado.
 
@@ -41,7 +41,18 @@ As capacidades do Watson foram aplicadas em várias indústrias, incluindo saúd
 
 ## Exemplos de aplicação
 
-Utilização da API de Natural Language Understanding da Inteligência Artificial Watson da IBM - https://github.com/antonino3g/video-maker
-Utilização do Watson Speech to Text (STT) - https://github.com/akeller/Unity-AI-AR
-Utulização do Watson language Classifier - https://github.com/IBM/programming-language-classifier
-Utilização do Watson Personality Insights - https://github.com/findbrok/laravel-personality-insights
+⏩ Utilização da API de Natural Language Understanding da Inteligência Artificial Watson da IBM - https://github.com/antonino3g/video-maker <br>
+
+Nesse projeto, o usuário informa algum tema de pesquisa para o vídeo, depois escolhe o filtro, a fim de obter maiores informações. A API busca no Wikipedia, e utilizará Machine Learning para efetuar o resumo. Com o resumo salvo, a próxima etapa será extrair do conteúdo, os metadados e as palavras-chaves com o uso da API de Natural Language Understanding da Inteligência Artificial Watson da IBM.
+
+🎤 Utilização do Watson Speech to Text and Text-To-Speech - https://github.com/akeller/Unity-AI-AR <br>
+
+Já nesse projeto, o objetivo foi o desenvolvimento de uma Inteligência Artificial em realidade aumentada, na plataforma Unity, além da implementação de ferramentas Watson para ter interações vocais com o assistente criado.
+
+🔑 Utilização do Watson language Classifier - https://github.com/IBM/programming-language-classifier <br>
+
+A solução desenvolvida constitui-se em um modelo que prevê a linguagem de programação de um código com base no texto. Nesse projeto, os dados são classificados pelo Watson Natural Language Classifier e avaliado pelo Watson Natural Language.
+
+👥 Utilização do Watson Personality Insights - https://github.com/findbrok/laravel-personality-insights <br>
+
+O software Laravel permite o maior entendimento e explanação de atributos sobre personalidades, construído a partir da API do IBM Watson Personality Insights. 
